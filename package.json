@@ -1,0 +1,27 @@
+{
+  "name": "react-learning",
+  "version": "1.0.0",
+  "description": "My React First React Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeep-routela/react-project.git"
+  },
+  "keywords": [
+    "react",
+    "sandeep",
+    "namaste-react"
+  ],
+  "author": "sandeep singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeep-routela/react-project/issues"
+  },
+  "homepage": "https://github.com/sandeep-routela/react-project#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
