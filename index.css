@@ -1,12 +1,67 @@
-#container{
-    background-color: rgb(218, 218, 144);
+.logo{
+    height: 130px;
+    width: 170px;
 }
 
-#heading1{
-   color: rgb(247, 46, 113);
+.header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 240, 235);
 }
 
-#heading2{
-    color: rgb(11, 84, 219);
+.nav-items > ul{
+    display: flex;
+    padding: 20px;
+    list-style-type: none;
 }
 
+.nav-items > ul > li{
+    padding: 20px;
+}
+
+.search{
+    text-align: center;
+}
+
+.search-box{
+    padding:5px;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(245, 240, 235);
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+.card:hover{
+    border: 1px solid black;
+}
+
+.card-img{
+    width: 300px;
+    height:200px;
+    border-radius: 25px;
+}
+
+.card-div{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3%;
+}
+
+.filter-action{
+    display: flex;
+    padding: 50px 100px 50px 50px;
+    justify-content: space-between;
+}
+
+.sort-click{
+    padding: 5px;
+    margin: 0px 4px 0px 2px;
+}
