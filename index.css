@@ -53,6 +53,8 @@
     display: flex;
     flex-wrap: wrap;
     padding-left: 3%;
+    margin-top: 20px;
+    margin-left: 7%;
 }
 
 .filter-action{
@@ -64,4 +66,13 @@
 .sort-click{
     padding: 5px;
     margin: 0px 4px 0px 2px;
+}
+
+.res-detail-name{
+    display: flex;
+  
+}
+
+.menu-rating{
+    color: rgb(231, 147, 147);
 }
